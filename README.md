@@ -24,7 +24,7 @@ By default msgconv generates a static payload that contains a lot of junk inform
 Files [deepstream_test5_app_main.c](deepstream-custom-test5/deepstream_test5_app_main.c) and [deepstream_sgie_meta.cpp](deepstream-custom-test5/deepstream_sgie_meta.cpp)
 
 - Include custom_payload.h
-- Change **generate_event_event_msg_meta** input parameter (CustomPayloadMeta instead of NvDsObjectMeta ) and update **EventMsgMeta** structure with information from **CustomPayloadMeta**.
+- Change **generate_event_msg_meta** input parameter (CustomPayloadMeta instead of NvDsObjectMeta ) and update **EventMsgMeta** structure with information from **CustomPayloadMeta**.
 - Modify **bbox_generated_probe_after_analytics** function to update **CustomPayloadMeta** structure with frame and object information.
 
 By default test5 does not use the classification information (sgie's) therefore a function is created to store information in **CustomPayloadMeta** (see [deepstream_sgie_meta.cpp](deepstream-custom-test5/deepstream_sgie_meta.cpp)) this function receives as input the classifier list of an object (classifier_meta_list) and an instance of **CustomPayloadMeta**.
