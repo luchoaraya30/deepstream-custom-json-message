@@ -1,0 +1,15 @@
+[analytics0]
+enable=1
+id=44
+
+[analytics1]
+enable=1
+id=45
+
+[analytics2]
+enable=1
+id=46
+
+[analytics3]
+enable=1
+id=47
