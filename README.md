@@ -6,7 +6,7 @@ Files  [custom_payload.h](includes/custom_payload.h) and [nvdsmeta_schema.h](inc
 
 We will send the next message with PGIE and SGIE metadata:
 
-![Alt text](../images/custom_json_msg.png?raw=true "Title")
+![Alt text](images/custom_json_msg.png?raw=true "Title")
 
 - Define **CustomPayloadMeta** structure where the information to generate the payment will be stored.
 - Add the same parameters of the newly defined structure to the **NvDsEventMsgMeta** structure.
